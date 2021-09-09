@@ -1,10 +1,20 @@
 package com.spring.basics.databasedemo.entity;
 
+import javax.persistence.*;
 import java.util.Date;
 
+@Entity
+@NamedQuery(name="find_all_persons", query="select p from Person p")
+@Table(name="person") // don't need bc it's the same name
 public class Person {
+
+    @Id
+    @GeneratedValue
     private int id;
+
+    @Column(name="name") // don't need bc it's the same name
     private String name;
+
     private String location;
     private Date birthDate;
 
@@ -12,6 +22,12 @@ public class Person {
 
     public Person(int id, String name, String location, Date birthDate) {
         this.id = id;
+        this.name = name;
+        this.location = location;
+        this.birthDate = birthDate;
+    }
+
+    public Person(String name, String location, Date birthDate) {
         this.name = name;
         this.location = location;
         this.birthDate = birthDate;
