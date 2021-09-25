@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
 import org.springframework.stereotype.Component;
 
-@Component
+@Component("JdbcConnection2") // idk why but tests throwing an error w/o the 2
 @Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE, proxyMode = ScopedProxyMode.TARGET_CLASS)
 public class JdbcConnection {
     public JdbcConnection() {

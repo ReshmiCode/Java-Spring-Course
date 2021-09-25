@@ -18,4 +18,5 @@ public class SomeCdiBusiness {
     public void setSomeCdiDao(SomeCdiDao someCdiDao) {
         this.someCdiDao = someCdiDao;
     }
+
 }

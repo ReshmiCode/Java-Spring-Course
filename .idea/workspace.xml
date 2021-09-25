@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="324ccbd1-df8f-4598-9ee4-65c595e63112" name="Changes" comment="" />
+    <list default="true" id="324ccbd1-df8f-4598-9ee4-65c595e63112" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/mockito-demo/src/test/java/com/basics/mockito/mockitodemo/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mockito-demo/src/test/java/com/basics/mockito/mockitodemo/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-in-5-steps/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-in-5-steps/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630965943814</updated>
       <workItem from="1630965948253" duration="13000" />
+      <workItem from="1631289282580" duration="164000" />
     </task>
     <servers />
   </component>
